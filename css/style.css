@@ -1,0 +1,58 @@
+.GridContainer{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+    'navbar navbar navbar navbar navbar navbar'
+    'imageprofile imageprofile imageprofile imageprofile imageprofile imageprofile'
+    'FirstList FirstList  SecondList  SecondList ThirdList ThirdList'
+    'Socials Socials Socials Socials Socials Socials'
+;
+
+}
+#DivItem1{
+    grid-area: navbar;
+    margin: 10px;
+
+}
+
+#DivItem2{
+    grid-area: imageprofile;
+    background-color: #915fa0;
+    margin: 5px;
+}
+
+#DivItem3{
+    grid-area: FirstList;
+    background-color: #915fa0;
+    margin: 2px;
+    padding: 5px;
+    border: 5px;
+}
+
+#DivItem4{
+    background-color: #18e79d;
+    grid-area: SecondList;
+    margin: 3px;
+}
+
+#DivItem5{
+    background-color: #915fa0;
+    grid-area: ThirdList;
+    margin: 3px;
+    
+}
+
+#DivItem6{
+    grid-area: Socials;
+    background-color: yellow;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
